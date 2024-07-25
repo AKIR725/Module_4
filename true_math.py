@@ -1,0 +1,11 @@
+from math import inf
+
+
+def devide(first, second):
+    if second == 0:
+        return inf
+    else:
+        return first / second
+
+print(devide(49, 7))
+print(devide(15, 0))
